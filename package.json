@@ -1,0 +1,39 @@
+{
+  "name": "lab-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./functions/app.js",
+  "scripts": {
+    "build": "netlify deploy --prod",
+    "start": "nodemon app.js",
+    "server": "nodemon app.js",
+    "test": ""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "joi": "^10.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.13",
+    "multer": "^1.4.2",
+    "netlify-cli": "^17.33.4",
+    "netlify-lambda": "^2.0.16",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "serverless-http": "^3.2.0",
+    "uuid": "^8.3.2",
+    "validator": "^13.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
