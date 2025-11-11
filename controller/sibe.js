@@ -6,6 +6,7 @@ const state = {
 
 keys = Object.keys(lab_result);
 
+
 lab_result = keys.map(item => {
     return {
         test: item,
